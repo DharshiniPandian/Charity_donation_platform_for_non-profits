@@ -1,0 +1,529 @@
+/* Home.css */
+/* body{
+  background-color: #ffffff;
+}
+.landing-page {
+  position: relative;
+  height: 173vh; 
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10%;
+ 
+} */
+body {
+    background-color: #ffffff;
+  }
+  
+  .landing-page {
+    position: relative;
+    height: 173vh; /* Use 100vh for full viewport height */
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10%;
+  }
+  
+  .image-banner {
+    width: 50%; /* Set your desired width */
+    height: 60%; /* Set your desired height */
+    overflow: hidden;
+    border-top-left-radius: 50% 100%; /* Half ellipse shape, adjust values accordingly */
+    border-top-right-radius: 50% 90%;
+    transform: rotate(90deg); /* Rotate the half-ellipse by 45 degrees */
+    margin: -19px auto; 
+    background-color: rgb(187, 236, 255);
+    margin-right: 100%;
+   
+  }
+  .title-head{
+    transform: rotate(270deg);
+  text-align: center;
+  justify-content: start;
+  align-items: start;
+  margin-top: 50%;
+  margin-bottom: 20%;
+  }
+  .title-head h3{
+    align-items: center;
+    font-style: italic;
+  }
+  
+  .content-section {
+    padding: 17% 1%;
+    background-color: rgb(206, 247, 247);
+    background-image: url();
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    padding: 15px;
+  }
+  
+  .rating-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .rating-card {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Additional styling for rating cards */
+  
+  .image{
+    /* background-color: black; */
+    background-image: url(hand3.png);
+    height: 42%;
+    width: 30%;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 15%;
+  border: none;
+  border-style: none;
+  text-decoration: none;
+  object-fit: cover;
+  }
+  .circle{
+    width: 12%; /* Set your desired width */
+    height: 12%; /* Set your desired height */
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: rgb(93, 218, 240);
+    margin-left: 65%;
+    margin-top: 20%;
+    position: absolute;
+  }
+  /* .circle::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 19px;
+    /* width: 85%;
+    height: 85%; */
+    /*  border-width: 100%;
+    border-radius: 1px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    border: 80px solid #58abf8; 
+    box-sizing: border-box;
+  } */
+  .circle h4{
+    transform: rotate(320deg);
+    overflow: hidden;
+   margin-top: 39%;
+   font-size: 21px;
+   color: #ffffff;
+  }
+  .webname{
+   
+    margin-top: 10%;
+    position: absolute;
+    font-size: 44px;
+    margin-left: 60%;
+    color: #7c7c7c;
+    border: 20px black;
+    font-family: 'Rocher';
+   
+  }
+  .webpara{
+    margin-top: 15%;
+    position: absolute;
+    font-size: 54px;
+    margin-left: 67%;
+    color: rgb(93, 218, 240);
+    border: 20px black;
+    font-family: 'Rocher';
+  }
+  
+  .sect_1{
+    display: flex;
+    margin-top: 0%;
+    align-items: center;
+    
+  }
+  .sect_2{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    
+  }
+  .sect_3{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+  
+  }
+  .container {
+    width: 35%;
+    height: 20%; /* Set a fixed height for the container */
+    padding: 3%;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+  }
+  
+  .container img {
+    height: 200%; /* Set the height of the image to 100% of the container */
+    width: 50%; /* Maintain aspect ratio */
+    margin-right: 10px;
+    
+  }
+  .latestcause{
+    margin-right: 70%;
+  }
+  .mission{
+    height: 173vh; /* Use 100vh for full viewport height */
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  .wrapper {
+    border: 1px ;
+    border-radius: 30px;
+  }
+  
+  .rating {
+    background-color: rgb(204, 203, 203);
+    border-radius: 30px;
+  }
+  
+  .barCompleted {
+    background-color: lightblue;
+    border-radius: 30px;
+    width: 80%;
+  }
+  
+  .labelbar {
+    font-size: 20px;
+    color: green;
+    border-radius: 30px;
+  }
+  .about-sec{
+    height: 100vh;
+    width: 100%;
+   justify-content: start;
+   align-items: center;
+   margin-top: 70%;
+  }
+  .about-img{
+    height: 77%;
+    width: 36.5%;
+   top: 315%;
+    margin-bottom: 10%;
+    background-image: url(about-img.png);
+    position: absolute;
+    margin-left: 10%;
+  }
+  /* .about-img1{
+    height: 30%;
+    width: 20%;
+    
+    margin-top: -10%;
+    margin-right: 60%;
+   
+  } */
+  .Aboutus{
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  .abt-sect_1{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    margin-left: 15%;
+  }
+  .abt-sect_2{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    margin-left: 15%;
+    }
+    
+  
+  
+  .abt-para{
+  margin-bottom: 30%;
+    width: 25%;
+    height: 20%; /* Set a fixed height for the container */
+    margin: 10px;
+    border-radius: 8px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    font-size: 1.3rem;
+  
+  }
+  .abt-para h4{
+    color: rgb(127, 193, 255);
+    margin-bottom: 10%;
+    width: 20%;
+  position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    font-size: 1.3rem;
+  }
+  .vl {
+    border-left: 2px solid rgb(219, 219, 219);
+    height: 356px;
+    position: absolute;
+    left: 54%;
+    margin-left: 20%;
+    top: 320%;
+  }
+  .service{
+  height: 100vh;
+    width: 100%;
+   justify-content: start;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+  }
+  /* .serv-sec{
+    height: 100vh;
+    width: 100%;
+   justify-content: start;
+   align-items: center;
+  } */
+  .service-img{
+    height: 77%;
+    width: 36.5%;
+   top: 415%;
+    margin-bottom: 100%;
+    background-image: url(about-img.png);
+    position: absolute;
+    margin-left: 50%;
+  
+  }
+  .list-1{
+    font-size: 120%;
+   margin-bottom: 10%;
+   position: relative;
+  text-decoration: none;
+  }
+  .service h1{
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 5%;
+  
+  }
+  .serv-para {
+    width: 30%;
+    font-weight: 4rem;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 10%;
+    text-align: start;
+  }
+   .image-3 {
+    background-image: url(./photo1.png);
+    background-position: 50% 50%;
+   
+    height: 546px;
+    position: relative;
+    
+  }
+  
+  .vol-box {
+    color: #352e2e;
+   
+    font-size: 30px;
+    font-weight: 400;
+    left: 102px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 69px;
+    white-space: nowrap;
+    width: 678px;
+  }
+  
+  .vol-para{
+    color: #352e2e;
+   
+    font-size: 15px;
+    font-weight: 400;
+    left: 137px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 4px 59px #00000040;
+    top: 195px;
+    width: 500px;
+  }
+  
+   .button-1 {
+    background-color: #458f811f;
+    height: 32px;
+    position: relative;
+    width: 306px;
+  }
+  /* //Contact */
+  
+  
+  @media screen and (max-width: 555px) {
+    .image-banner {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      transform: rotate(360deg);
+      margin: 0;
+      margin-top: 10%;
+    }
+    .image {
+      background-image: url(hand1.jpeg);
+      height: auto; /* Set the height to auto for responsiveness */
+      width: 80%; /* Set the width to a percentage for responsiveness */
+      position: absolute;
+      margin-top: 35%;
+      margin-left: 10%; /* Adjust the left margin as needed */
+      border: none;
+      border-style: none;
+      text-decoration: none;
+    }
+   
+  
+    .title-head {
+      transform: rotate(0deg);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  
+    .title-head h3 {
+      align-items: center;
+      font-style: italic;
+    }
+  
+    .content-section {
+      padding: 10% 1%;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .circle {
+      width: 30%;
+      height: 10%;
+      border-radius: 50%;
+      background-color: rgb(93, 218, 240);
+      margin-left: 40%;
+      margin-top: 70%;
+      position: absolute;
+    }
+  
+    .circle h4 {
+      transform: rotate(0deg);
+      overflow: hidden;
+      margin-top: 55%;
+      font-size: 14px;
+      color: #ffffff;
+    }
+  
+    .webname {
+      margin-top: 5%;
+      font-size: 24px;
+      margin-left: 20%;
+      color: #7c7c7c;
+    }
+  
+    .webpara {
+      margin-top: 8%;
+      font-size: 34px;
+      margin-left: 25%;
+      color: rgb(93, 218, 240);
+    }
+  
+    .sect_1,
+    .sect_2,
+    .sect_3 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 5%;
+      align-items: center;
+      
+    }
+  
+    .container {
+      width: 80%;
+      height: auto;
+      padding: 3%;
+      box-sizing: border-box;
+      margin: 10px;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: left;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .container img {
+      height: auto;
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .latestcause {
+      margin-right: 0;
+      
+    }
+    
+    .wrapper {
+      border-radius: 15px;
+    }
+  
+    .rating {
+      background-color: rgb(240, 114, 114);
+      border-radius: 15px;
+    }
+  
+    .barCompleted {
+      background-color: lightblue;
+      border-radius: 15px;
+      width: 80%;
+    }
+  
+    .labelbar {
+      font-size: 16px;
+      color: green;
+      border-radius: 15px;
+    }
+  }

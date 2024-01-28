@@ -1,0 +1,19 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 20px;
+    background-color: #f3f4f7;
+}
+
+.organisers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.organiser-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
